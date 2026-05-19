@@ -12,8 +12,16 @@ Lightweight collection of AI demo scripts for translation, FAQ chatbot, MIDI mus
 ## Quick Start
 1. Ensure you have Python 3.8 or newer installed.
 2. (Optional) Create and activate a virtual environment.
-3. Install any required packages (see `requirements.txt` if present).
-4. Run a script:
+3. Install these required packages.
+
+```bash
+pip install deep-translator
+pip install scikit-learn nltk
+pip install music21 torch numpy
+pip install ultralytics opencv-python
+```
+   
+4. Run this script to run the files:
 
 ```bash
 python translation_tool.py
